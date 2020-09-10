@@ -12,7 +12,7 @@ Good luck!
 
 ## Setup Homebrew
 
-```shell
+```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew.zsh|zsh
 ```
 
