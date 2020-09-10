@@ -22,11 +22,15 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew.zsh|z
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-shell-integration.zsh|zsh
 ```
 
-## Copy .zshrc and .aliases
+## Copy .zshrc 
 
 ```
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .aliases
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.zshrc > .zshrc
+```
+
+## Copy .aliases
+```
+curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .aliases
 ```
 
 ## Setup git
