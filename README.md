@@ -30,7 +30,7 @@ Good luck!
 ## Setup Homebrew
 
 ```sh
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-brew|zsh
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-brew)
 ```
 
 ## Setup shell-integration for iTerm
@@ -42,13 +42,13 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setu
 ## Copy .zshrc 
 
 ```sh
-curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/.zshrc > .zshrc
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/.zshrc > .zshrc
 ```
 
 ## Copy .aliases
 
 ```sh
-curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/.aliases > .aliases
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/.aliases > .aliases
 ```
 
 ## Setup git
@@ -56,7 +56,7 @@ curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/.aliases > .a
 Please enter the requested inputs and press Enter.
 
 ```sh
-curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git|zsh
+zsh <(https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git)
 ```
 
 ## Setup macOS
@@ -64,5 +64,5 @@ curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git|zsh
 Please restart your Mac after this.
 
 ```sh
-curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos|zsh
+zsh <(https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos)
 ```
