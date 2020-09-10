@@ -10,7 +10,7 @@
 - Setup zsh with a powerful prompt, aliases and convenient shortcuts
 - Setup the git user (name and email) and a simple git configuration
 - Create an ssh key and add the passphrase to the macOS keychain
-- Configure macOS: faster key repeat rate, automatically hide the Dock, show all files (also hidden ones) in Finder
+- Configure macOS: faster key repeat rate, faster hiding of the Dock, show all files (also hidden ones) in Finder
 
 ## How to run the setup
 1. You should have the latest macOS installed. To make sure, click on the apple logo at the top left, go to "About this Mac" and click "Software Update". Install the update, if needed.
