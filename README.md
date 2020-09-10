@@ -29,12 +29,13 @@ Good luck!
 
 ## Setup Homebrew
 
-`curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew|zsh`
+```sh
+curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew|zsh```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-iterm|zsh
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-iterm|zsh)
 ```
 
 ## Copy .zshrc 
