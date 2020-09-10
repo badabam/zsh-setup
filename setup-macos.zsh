@@ -1,0 +1,6 @@
+# Set some macOS settings
+defaults write com.apple.dock autohide-time-modifier -float 0.25;killall Dock
+defaults write com.apple.Dock autohide-delay -float 0;killall Dock
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 25
+defaults write com.apple.Finder AppleShowAllFiles true; killall Finder
