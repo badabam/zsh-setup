@@ -5,3 +5,6 @@ vared -p 'Enter your e-mail (you@yourdomain.com): ' -c email &&
 git config --global user.email $email;
 git config --global pull.ff "only"
 git config --global core.pager cat
+ssh-keygen -t rsa -b 4096 -C $email
+echo "Host *\n    UseKeychain yes" > ~/.ssh/config
+
