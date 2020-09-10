@@ -56,7 +56,7 @@ curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/.aliases >
 Please enter the requested inputs and press Enter.
 
 ```sh
-zsh <(https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git)
 ```
 
 ## Setup macOS
@@ -64,5 +64,5 @@ zsh <(https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git)
 Please restart your Mac after this.
 
 ```sh
-zsh <(https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos)
 ```
