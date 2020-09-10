@@ -29,12 +29,14 @@ Good luck!
 
 ## Setup Homebrew
 
-<pre><code>curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew.zsh|zsh</code></pre>
+```sh
+curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew|zsh
+```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-shell-integration.zsh\|zsh
+curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-iterm|zsh
 ```
 
 ## Copy .zshrc 
@@ -54,7 +56,7 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .alia
 Please enter the requested inputs and press Enter.
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git.zsh\|zsh
+curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git|zsh
 ```
 
 ## Setup macOS
@@ -62,5 +64,5 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git.zsh\|z
 Please restart your Mac after this.
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-macos.zsh\|zsh
+curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-macos|zsh
 ```

@@ -1,3 +1,4 @@
+#!/usr/bin/env zsh
 # Set some macOS settings
 defaults write com.apple.dock autohide-time-modifier -float 0.25;killall Dock
 defaults write com.apple.Dock autohide-delay -float 0;killall Dock
