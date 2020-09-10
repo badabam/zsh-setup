@@ -1,5 +1,18 @@
 # Setup your macOS for neuefische
 
+## What does this setup do?
+
+- Install Homebrew for convenient software installation on macOS
+- Install software with visual user interface: iTerm, Slack, Firefox Developer Edition, Visual Studio Code, Zoom, Postman, Rectangle 
+- Install command line tools: zsh, git, antigen, zsh-completions, exa, fasd, fzf
+- Install the font "Fira Code" for usage in iTerm
+- Add shell-integration for iTerm
+- Setup zsh with a powerful prompt, aliases and convenient shortcuts
+- Setup the git user (name and email) and a simple git configuration
+- Create an ssh key and add the passphrase to the macOS keychain
+- Configure macOS: faster key repeat rate, automatically hide the Dock, show all files (also hidden ones) in Finder
+
+## How to run the setup
 1. You should have the latest macOS installed. To make sure, click on the apple logo at the top left, go to "About this Mac" and click "Software Update". Install the update, if needed.
 
 1. Click on the magnifying glass on the top right. Write "Terminal", wait for search results, then run the program by pressing Enter.
@@ -29,11 +42,14 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.zshrc > .zshrc
 ```
 
 ## Copy .aliases
+
 ```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .aliases
 ```
 
 ## Setup git
+
+Please enter the requested inputs and press Enter.
 
 ```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git.zsh|zsh
@@ -41,7 +57,8 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git.zsh|zs
 
 ## Setup macOS
 
+Please restart your Mac after this.
+
 ```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-macos.zsh|zsh
 ```
-
