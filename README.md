@@ -30,25 +30,25 @@ Good luck!
 ## Setup Homebrew
 
 ```sh
-curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew|zsh
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-brew|zsh
 ```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-iterm)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-iterm)
 ```
 
 ## Copy .zshrc 
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.zshrc > .zshrc
+curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/.zshrc > .zshrc
 ```
 
 ## Copy .aliases
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .aliases
+curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/.aliases > .aliases
 ```
 
 ## Setup git
@@ -56,7 +56,7 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .alia
 Please enter the requested inputs and press Enter.
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git|zsh
+curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git|zsh
 ```
 
 ## Setup macOS
@@ -64,5 +64,5 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git|zsh
 Please restart your Mac after this.
 
 ```sh
-curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-macos|zsh
+curl https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos|zsh
 ```
