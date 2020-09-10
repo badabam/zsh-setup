@@ -23,6 +23,10 @@
 
 Good luck!
 
+## `Start here`
+
+**Copy each command and paste it into the Terminal. Run it by pressing `Enter`**
+
 ## Setup Homebrew
 
 ```sh
