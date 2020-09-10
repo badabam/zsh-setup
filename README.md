@@ -29,7 +29,7 @@ Good luck!
 
 ## Setup Homebrew
 
-<pre><code>curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew.zsh\|zsh</code></pre>
+<pre><code>curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew.zsh|zsh</code></pre>
 
 ## Setup shell-integration for iTerm
 
