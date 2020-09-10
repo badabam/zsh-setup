@@ -18,30 +18,30 @@ curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew.zsh|z
 
 ## Setup shell-integration for iTerm
 
-```
+```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-shell-integration.zsh|zsh
 ```
 
 ## Copy .zshrc 
 
-```
+```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.zshrc > .zshrc
 ```
 
 ## Copy .aliases
-```
+```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/.aliases > .aliases
 ```
 
 ## Setup git
 
-```
+```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-git.zsh|zsh
 ```
 
 ## Setup macOS
 
-```
+```sh
 curl https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-macos.zsh|zsh
 ```
 
