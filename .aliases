@@ -1,0 +1,20 @@
+# shell
+
+alias ls="exa"
+alias l="ls -l"
+alias ll="ls -la --group-directories-first"
+
+# git
+alias gdc="git diff --cached"
+
+# npm
+alias npmi="npm i"
+alias npmis="npm i && npm start"
+alias npms="npm start"
+alias npmu="npm uninstall"
+alias npmid="npm install -D"
+alias npmh="npm home"
+alias npmig="npm i -g"
+
+# clean up Downloads folder
+alias dl="cd ~/Downloads; mkdir $(echo `date +%Y-%m-%d`); mv  ./^$_  $_"
