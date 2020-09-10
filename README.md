@@ -36,7 +36,7 @@ curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-brew|zs
 ## Setup shell-integration for iTerm
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-iterm|zsh)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/setup-iterm)
 ```
 
 ## Copy .zshrc 
