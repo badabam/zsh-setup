@@ -3,7 +3,7 @@
 ## What does this setup do?
 
 - Install Homebrew for convenient software installation on macOS
-- Install software with visual user interface: iTerm, Slack, Firefox Developer Edition, Visual Studio Code, Zoom, Postman, Rectangle 
+- Install software with visual user interface: iTerm, Slack, Firefox Developer Edition, Visual Studio Code, Zoom, Postman, Rectangle
 - Install command line tools: zsh, git, antigen, zsh-completions, exa, fasd, fzf
 - Install the font "Fira Code" for usage in iTerm
 - Add shell-integration for iTerm
@@ -13,6 +13,7 @@
 - Configure macOS: faster key repeat rate, faster hiding of the Dock, show all files (also hidden ones) in Finder
 
 ## How to run the setup
+
 1. You should have the latest macOS installed. To make sure, click on the apple logo at the top left, go to "About this Mac" and click "Software Update". Install the update, if needed.
 
 1. Click on the magnifying glass on the top right. Write "Terminal", wait for search results, then run the program by pressing Enter.
@@ -23,14 +24,26 @@
 
 Good luck!
 
-## `Start here`
-
 **Copy each command and paste it into the Terminal. Run it by pressing `Enter`**
 
-## Setup Homebrew
+_If a command does not work and you can't fix the problem, continue with the next command_
+
+## Install Homebrew and Command Line Tools
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-brew)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-brew)
+```
+
+## Install macOS Apps
+
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-apps)
+```
+
+## Install MongoDB
+
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-mongo)
 ```
 
 ## Setup shell-integration for iTerm
@@ -39,7 +52,7 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setu
 zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-iterm)
 ```
 
-## Copy .zshrc 
+## Copy .zshrc
 
 ```sh
 curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/.zshrc > .zshrc
