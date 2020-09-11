@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+# Copy configuration files
 curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.zshrc > ~/.zshrc
 curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.aliases > ~/.aliases
 curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.p10k.zsh > ~/.p10k.zsh
