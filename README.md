@@ -1,4 +1,4 @@
-# Setup your macOS for neuefische
+# Setup your macOS
 
 ## What does this setup do?
 
@@ -11,6 +11,7 @@
 - Setup the git user (name and email) and a simple git configuration
 - Create an ssh key and add the passphrase to the macOS keychain
 - Configure macOS: faster key repeat rate, faster hiding of the Dock, show all files (also hidden ones) in Finder
+- Show a list of optional apps to install
 
 ## How to run the setup
 
@@ -24,8 +25,7 @@
 
 Good luck!
 
-**Copy each command and paste it into the Terminal. Run it by pressing `Enter`.**
-**If a command does not work and you can't fix the problem, continue with the next command**
+**Copy each command and paste it into the Terminal. Run it by pressing `Enter`. If a command does not work and you can't fix the problem, continue with the next command.**
 
 ## Install Homebrew and Command Line Tools
 
