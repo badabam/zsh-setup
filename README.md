@@ -24,9 +24,8 @@
 
 Good luck!
 
-**Copy each command and paste it into the Terminal. Run it by pressing `Enter`**
-
-_If a command does not work and you can't fix the problem, continue with the next command_
+**Copy each command and paste it into the Terminal. Run it by pressing `Enter`.**
+**If a command does not work and you can't fix the problem, continue with the next command**
 
 ## Install Homebrew and Command Line Tools
 
