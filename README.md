@@ -72,11 +72,3 @@ Please restart your Mac after this.
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-macos)
 ```
-
-## Optional apps (preferred by Jerry)
-
-This command only shows what you _could_ install. You need to call the shown command yourself.
-
-```sh
-cat <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-optional-apps)
-```
