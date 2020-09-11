@@ -30,31 +30,31 @@ Good luck!
 ## Install Homebrew and Command Line Tools
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-brew)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-brew)
 ```
 
 ## Install macOS Apps
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-apps)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-apps)
 ```
 
 ## Install MongoDB
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-mongo)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-mongo)
 ```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-iterm)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-iterm)
 ```
 
 ## Copy configs
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/copy-configs)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/copy-configs)
 ```
 
 ## Setup git
@@ -62,7 +62,7 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scri
 Please enter the requested inputs and press Enter.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-git)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-git)
 ```
 
 ## Setup macOS
@@ -70,5 +70,5 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scri
 Please restart your Mac after this.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-macos)
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-macos)
 ```
