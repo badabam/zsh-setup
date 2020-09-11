@@ -52,16 +52,10 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/inst
 zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-iterm)
 ```
 
-## Copy .zshrc
+## Copy configs
 
 ```sh
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/.zshrc > .zshrc
-```
-
-## Copy .aliases
-
-```sh
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/.aliases > .aliases
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/copy-configs)
 ```
 
 ## Setup git
