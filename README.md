@@ -34,11 +34,13 @@
 
 1. Go through each of the following steps and copy and paste each command into Terminal and press Enter. Wait for the command to finish and follow any instructions.
 
-1. In case of any Error, read the error text from the beginning and google for help. Ask a head coach for help.
+1. In case of any Error, read the error text from the beginning and google for help. Ask a coach for help.
 
 **Copy each command and paste it into the Terminal. Run it by pressing `Enter`. If a command does not work and you can't fix the problem, continue with the next command.**
 
 ## Install Homebrew and Command Line Tools
+
+If you are asked to enable fuzzy auto-completion, enable key bindings and update shell configuration files confirm by pressing `y`.
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-brew)
@@ -70,7 +72,7 @@ zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts
 
 ## Setup git
 
-Please enter the requested inputs and press Enter.
+Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used.
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-git)
