@@ -2,32 +2,45 @@
 
 ## What does this setup do?
 
-- Install Homebrew for convenient software installation on macOS
-- Install software with visual user interface: iTerm, Slack, Firefox Developer Edition, Visual Studio Code, Zoom, Postman, Rectangle
-- Install command line tools: zsh, git, antigen, zsh-completions, exa, fasd, fzf
+- Install Homebrew for software installation
+- Install software:
+  - iTerm
+  - Slack
+  - Firefox Developer Edition
+  - Visual Studio Code
+  - Zoom
+  - Postman
+  - Rectangle
+- Install command line tools:
+  - zsh
+  - git
+  - antigen
+  - zsh-completions
+  - exa
+  - fasd
+  - fzf
 - Install the font "Fira Code" for usage in iTerm
 - Add shell-integration for iTerm
 - Setup zsh with a powerful prompt, aliases and convenient shortcuts
-- Setup the git user (name and email) and a simple git configuration
-- Create an ssh key and add the passphrase to the macOS keychain
-- Configure macOS: faster key repeat rate, faster hiding of the Dock, show all files (also hidden ones) in Finder
-- Show a list of optional apps to install
+- Create git configuration with user name and email
+- Create ssh key and add the passphrase to the macOS keychain
+- Configure macOS: make keyboard and Dock faster, show hidden files in Finder
 
 ## How to run the setup
 
-1. You should have the latest macOS installed. To make sure, click on the apple logo at the top left, go to "About this Mac" and click "Software Update". Install the update, if needed.
+1. You should have the latest macOS installed. To make sure, click on the apple logo at the top left, go to "About this Mac" and click "Software Update". Install any missing updates.
 
-1. Click on the magnifying glass on the top right. Write "Terminal", wait for search results, then run the program by pressing Enter.
+1. Find and run the program "Terminal"
 
-1. Go through each of the following steps and copy and paste each command into the terminal and press Enter. Wait for the command to finish and follow the instructions where shown.
+1. Go through each of the following steps and copy and paste each command into Terminal and press Enter. Wait for the command to finish and follow any instructions.
 
-1. In case of any Error, read the error text from the beginning and google for help. Ask a Head Coach for help, if needed.
-
-Good luck!
+1. In case of any Error, read the error text from the beginning and google for help. Ask a coach for help.
 
 **Copy each command and paste it into the Terminal. Run it by pressing `Enter`. If a command does not work and you can't fix the problem, continue with the next command.**
 
 ## Install Homebrew and Command Line Tools
+
+If you are asked to enable fuzzy auto-completion, enable key bindings and update shell configuration files confirm by pressing `y`.
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-brew)
@@ -59,7 +72,7 @@ zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts
 
 ## Setup git
 
-Please enter the requested inputs and press Enter.
+Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used.
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-git)
