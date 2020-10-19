@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 # Install homebrew, then install formulae
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" &&
-brew install zsh git antigen zsh-completions exa fasd tree &&
+brew install zsh git antigen zsh-completions exa fasd tree bat &&
 brew install fzf && $(brew --prefix)/opt/fzf/install
