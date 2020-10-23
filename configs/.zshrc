@@ -7,6 +7,8 @@ fi
 
 export TERM="xterm-256color" # This sets up colors properly
 
+export LANG=en_US.UTF-8 
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # OSX antigen file
