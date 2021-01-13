@@ -3,5 +3,5 @@
 # Update formulae:
 brew tap homebrew/cask
 
-# Modify the following command (look it up with `brew --cask home <name>`) before running it yourself:
-brew install --cask background-music bitwarden darktable forklift insomnia jumpcut kap keepingyouawake kindle sketch spotify steam the-unarchiver unison vlc whatsapp
+# Modify the following command (look it up with `brew home --cask <name>`) before running it yourself:
+for x in background-music bitwarden darktable forklift insomnia jumpcut kap keepingyouawake kindle sketch spotify steam the-unarchiver unison vlc whatsapp; do brew install --cask $x; done
