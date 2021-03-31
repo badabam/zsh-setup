@@ -3,28 +3,13 @@
 ## What does this setup do?
 
 - Install Homebrew for software installation
-- Install software:
-  - iTerm
-  - Slack
-  - Firefox Developer Edition
-  - Visual Studio Code
-  - Zoom
-  - Postman
-  - Rectangle
-- Install command line tools:
-  - zsh
-  - git
-  - antigen
-  - zsh-completions
-  - exa
-  - fasd
-  - fzf
-- Install the font "Fira Code" for usage in iTerm
+- Install software: iTerm, Slack, Firefox Developer Edition, Visual Studio Code, Zoom, Postman, Rectangle
+- Install command line tools: zsh, git, antigen, zsh-completions, exa, fasd, fzf
+- Install the font "Fira Code"
 - Add shell-integration for iTerm
 - Setup zsh with a powerful prompt, aliases and convenient shortcuts
 - Create git configuration with user name and email
 - Create ssh key and add the passphrase to the macOS keychain
-- Configure macOS: make keyboard and Dock faster, show hidden files in Finder
 
 ## How to run the setup
 
@@ -43,31 +28,31 @@
 If you are asked to enable fuzzy auto-completion, enable key bindings and update shell configuration files confirm by pressing `y`.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-brew)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-brew)
 ```
 
 ## Install macOS Apps
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-apps)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-apps)
 ```
 
 ## Install MongoDB
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/install-mongo)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-mongo)
 ```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-iterm)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-iterm)
 ```
 
 ## Copy configs
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/copy-configs)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/copy-configs)
 ```
 
 ## Setup git
@@ -75,7 +60,7 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scri
 Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-git)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git)
 ```
 
 ## Setup macOS
@@ -83,5 +68,5 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scri
 Please restart your Mac after this.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/scripts/setup-macos)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos)
 ```
