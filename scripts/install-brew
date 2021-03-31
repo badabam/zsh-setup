@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 # Install homebrew, then install formulae
+export LANG=en_US.UTF-8;
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" &&
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/`echo $USER`/z.profile &&
 eval "(/opt/homebrew/bin/brew shellenv)" &&
