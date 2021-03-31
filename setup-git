@@ -1,5 +1,4 @@
 #!/usr/bin/env zsh
-export LANG=en_US.UTF-8;
 vared -p 'Enter your full name (e.g. Jerry Erbs): ' -c fullname &&
 git config --global user.name $fullname &&
 vared -p 'Enter your e-mail (you@yourdomain.com): ' -c email &&

@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 # Install macOS apps
-export LANG=en_US.UTF-8;
 brew tap homebrew/cask-fonts && brew install --cask font-fira-code &&
-brew tap homebrew/cask-versions && brew install --cask firefox-developer-edition &&
-for x in authy iterm2 mongodb-compass quicklook-csv quicklook-json rectangle slack visual-studio-code webpquicklook zoom; do brew install --cask $x; done
+brew tap homebrew/cask-versions && brew install --cask firefox-developer-edition --lang=en-US &&
+for x in authy zoom iterm2 slack visual-studio-code rectangle mongodb-compass quicklook-csv quicklook-json webpquicklook; do brew install --cask $x; done

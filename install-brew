@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 # Install homebrew, then install formulae
-export LANG=en_US.UTF-8;
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" &&
 eval "(/opt/homebrew/bin/brew shellenv)" &&
 for x in zsh git antigen zsh-completions exa fasd tree bat httpie lynx; do brew install $x; done &&
