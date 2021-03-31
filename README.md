@@ -28,31 +28,31 @@
 If you are asked to enable fuzzy auto-completion, enable key bindings and update shell configuration files confirm by pressing `y`.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-brew)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/install-brew)
 ```
 
 ## Install macOS Apps
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-apps)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/install-apps)
 ```
 
 ## Install MongoDB
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/install-mongo)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/install-mongo)
 ```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-iterm)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-iterm)
 ```
 
 ## Copy configs
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/copy-configs)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/copy-configs)
 ```
 
 ## Setup git
@@ -60,7 +60,7 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/copy
 Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-git)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-git)
 ```
 
 ## Setup macOS
@@ -68,5 +68,5 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setu
 Please restart your Mac after this.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/setup-macos)
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-macos)
 ```
