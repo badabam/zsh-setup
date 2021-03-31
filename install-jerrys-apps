@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+# Install macOS apps
+export LANG=en_US.UTF-8;
+for x in ableton-live-theme-dracula keycastr obs spotify steam the-unarchiver vlc; do brew install --cask $x; done;
+for y in bitwarden-cli go tmux watchman; do brew install $y; done;
