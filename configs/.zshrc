@@ -7,12 +7,12 @@ fi
 
 export TERM="xterm-256color" # This sets up colors properly
 
-export LANG=en_US.UTF-8 
+export LANG=en_US.UTF-8
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # OSX antigen file
-source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -20,7 +20,7 @@ antigen use oh-my-zsh
 # Load the theme
 antigen theme romkatv/powerlevel10k
 
-# Bundles 
+# Bundles
 antigen bundle git
 antigen bundle common-aliases
 antigen bundle fasd
@@ -45,5 +45,5 @@ setopt extendedglob
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Enable fuzzy backwards search 
+# Enable fuzzy backwards search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

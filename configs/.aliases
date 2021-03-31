@@ -6,15 +6,23 @@ alias rm="rm -f"
 
 # git
 alias gdc="git diff --cached"
+alias gsync='git add . && git commit -m "sync" && git pull --rebase && git push'
+
+# copy prettier files
+alias addprettier="cp ~/.prettier/.* ."
 
 # npm
+alias npml="npm --legacy-peer-deps"
 alias npmi="npm i"
 alias npmis="npm i && npm start"
 alias npms="npm start"
+alias npmt="npm test"
+alias npmr="npm run"
 alias npmu="npm uninstall"
 alias npmid="npm install -D"
 alias npmh="npm home"
 alias npmig="npm i -g"
+alias npmiy="npm init -y"
 
 # fzf
 alias fzfh="find * -type f | fzf" # fzf including hidden files
