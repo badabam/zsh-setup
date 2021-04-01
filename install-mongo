@@ -1,5 +1,14 @@
 #!/usr/bin/env zsh
 # Install MongoDB
 brew tap mongodb/brew &&
-(brew install mongodb-community@4.4 || arch -arm64 brew install mongodb-community@4.4) &&
-brew services start mongodb-community@4.4
+arch_name="$(uname -m)";
+if [ "${arch_name}" = "arm64" ]; then
+    echo "\n\n--------------\nYou have a Mac with M1, so I'll install Rosetta for mongodb\n\n"
+    softwareupdate --install-rosetta;
+    arch -arm64 brew install mongodb-community@4.4;
+    brew services start mongodb/brew/mongodb-community;
+else
+    echo "\n\n--------------\nYou have a Mac with Intel processor\n\n"
+    brew install mongodb-community@4.4;
+    brew services start mongodb-community@4.4;
+fi
