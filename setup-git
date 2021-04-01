@@ -8,4 +8,7 @@ git config --global core.pager bat; # is installed via brew install bat
 ssh-keygen -t ed25519 -C $email;
 eval "$(ssh-agent -s)";
 echo "Host *\n    AddKeysToAgent yes\n    UseKeychain yes\n    IdentityFile ~/.ssh/id_ed25519" > ~/.ssh/config;
-ssh-add -K ~/.ssh/id_ed25519
+ssh-add -K ~/.ssh/id_ed25519;
+echo "------------------------\n\nPlease follow the instructions:\n-------------------\n" &&
+
+gh auth login -w;
