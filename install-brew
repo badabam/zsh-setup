@@ -1,8 +1,13 @@
 #!/usr/bin/env zsh
 # Install homebrew, then install formulae
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
+
+if [ "${arch_name}" = "arm64" ]; then
+    echo "\n\nAdd homebrew shellenv for Mac with M1 chip:\n\n";
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/`echo $USER`/.zprofile;
 eval "$(/opt/homebrew/bin/brew shellenv)";
+fi
+
 for x in go gh zsh git antigen zsh-completions exa fasd tree bat; do brew install $x; done;
 brew install fzf && $(brew --prefix)/opt/fzf/install &&
 echo "------------------------\n\nInstalled formulae:\n-------------------\n" &&
