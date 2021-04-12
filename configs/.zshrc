@@ -12,7 +12,13 @@ export LANG=en_US.UTF-8
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # OSX antigen file
-source /opt/homebrew/share/antigen/antigen.zsh
+if [ "${arch_name}" = "arm64" ]; then
+  echo "\n\nSetting up antigen for Macs with M1 chip:\n\n";
+  source /opt/homebrew/share/antigen/antigen.zsh;
+else
+  echo "\n\nSetting up antigen for Macs with Intel chip";
+  source /usr/local/share/antigen/antigen.zsh;
+fi
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
