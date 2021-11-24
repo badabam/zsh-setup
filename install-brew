@@ -9,7 +9,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/`echo $USER`/.zprofil
 eval "$(/opt/homebrew/bin/brew shellenv)";
 fi
 
-for x in go gh zsh git antigen zsh-completions exa fasd tree bat; do brew install $x; done;
+for x in go gh zsh git antigen zsh-completions exa fasd tree bat httpie lynx; do brew install $x; done;
 brew install fzf && $(brew --prefix)/opt/fzf/install &&
 echo "------------------------\n\nInstalled formulae:\n-------------------\n" &&
 brew list --formulae -1

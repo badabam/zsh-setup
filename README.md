@@ -28,31 +28,57 @@
 If you are asked to enable fuzzy auto-completion, enable key bindings and update shell configuration files confirm by pressing `y`.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-brew)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/install-brew)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/install-brew)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
 
 ## Install macOS Apps
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-apps)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/install-apps)
+```
+
+## Install Jerry's favorite apps
+
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/install-jerrys-apps)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/install-apps)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
 
 ## Install MongoDB
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/install-mongo)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/install-mongo)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/install-mongo)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
 
 ## Setup shell-integration for iTerm
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-iterm)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/setup-iterm)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-iterm)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
 
 ## Copy configs
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/copy-configs)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/copy-configs)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/copy-configs)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
 
 ## Setup git
@@ -60,7 +86,11 @@ zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts
 Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-git)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/setup-git)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-git)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
 
 ## Setup macOS
@@ -68,5 +98,9 @@ zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts
 Please restart your Mac after this.
 
 ```sh
-zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/master/scripts/setup-macos)
+<<<<<<< HEAD
+zsh <(curl -s https://raw.githubusercontent.com/badabam/zsh-setup/main/scripts/setup-macos)
+=======
+zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-macos)
+>>>>>>> 2f4b39f (Rename master to main)
 ```
