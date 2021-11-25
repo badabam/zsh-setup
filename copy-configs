@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 # Copy configuration files
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.zshrc > ~/.zshrc;
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.aliases > ~/.aliases;
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.p10k.zsh > ~/.p10k.zsh;
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/configs/.zshrc > ~/.zshrc;
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/configs/.aliases > ~/.aliases;
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/configs/.p10k.zsh > ~/.p10k.zsh;
 mkdir ~/.prettier;
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.prettierrc > ~/.prettier/.prettierrc;
-curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/master/configs/.prettierignore > ~/.prettier/.prettierignore;
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/configs/.prettierrc > ~/.prettier/.prettierrc;
+curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/configs/.prettierignore > ~/.prettier/.prettierignore;
