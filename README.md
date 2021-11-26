@@ -2,14 +2,12 @@
 
 ## What does this setup do?
 
-- Install Homebrew for software installation
-- Install software: iTerm, Slack, Firefox Developer Edition, Visual Studio Code, Zoom, Postman, Rectangle
-- Install command line tools: zsh, git, antigen, zsh-completions, exa, fasd, fzf
-- Install the font "Fira Code"
-- Add shell-integration for iTerm
-- Setup zsh with a powerful prompt, aliases and convenient shortcuts
-- Create git configuration with user name and email
-- Create ssh key and add the passphrase to the macOS keychain
+- Install Homebrew and [common command line tools](install-brew#L12)
+- Setup [zsh with a powerful prompt, aliases and convenient shortcuts](https://github.com/neuefische/zsh-setup/blob/main/copy-configs)
+- Add [shell-integration for iTerm](https://github.com/neuefische/zsh-setup/blob/main/setup-iterm)
+- Setup a [git user and create and link an ssh key for GitHub](https://github.com/neuefische/zsh-setup/blob/main/setup-git)
+- Install [common macOS software](https://github.com/neuefische/zsh-setup/blob/main/install-apps#L5) for developers
+- Install [MongoDB](https://github.com/neuefische/zsh-setup/blob/main/install-mongo) (community-edition)
 
 ## How to run the setup
 
