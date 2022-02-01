@@ -5,6 +5,7 @@ vared -p 'Enter your e-mail (john@johndoe.com): ' -c email &&
 git config --global user.email $email;
 git config --global pull.ff "only";
 git config --global core.pager bat; # is installed via brew install bat
+git config --global init.defaultBranch main
 ssh-keygen -t ed25519 -C $email;
 eval "$(ssh-agent -s)";
 echo "Host *\n    AddKeysToAgent yes\n    UseKeychain yes\n    IdentityFile ~/.ssh/id_ed25519" > ~/.ssh/config;
