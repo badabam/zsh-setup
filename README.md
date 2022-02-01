@@ -55,7 +55,7 @@ zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/copy-c
 
 ## Setup git
 
-Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used.
+Please enter the requested inputs and press `Enter` when asked about which file to save key and your passphrase. By simply pressing `Enter` the default settings will be used. Choose `ssh` as your preferred connection method. Login and authenticate with the browser. (The device code is found in the Terminal.)
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/neuefische/zsh-setup/main/setup-git)
