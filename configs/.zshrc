@@ -52,3 +52,6 @@ setopt extendedglob
 
 # Enable fuzzy backwards search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Setup fnm (fast node manager)
+eval "$(fnm env --use-on-cd)"
